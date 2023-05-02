@@ -1,5 +1,7 @@
 ### Submission entry for `Noisy Chardonnay` team
 
+_Update (05/02/2023): A preprint describing the challenge and various approaches (including our attempt described in this repo) is now available on BioRxiv. [Rafi et al. 2023, Evaluation and optimization of sequence-based gene regulatory deep learning models](https://www.biorxiv.org/content/10.1101/2023.04.26.538471v1.abstract)_
+
 This repo contains the source code and instructions to reproduce our submission entry for the [DREAM Challenge 2022](https://www.iscb.org/rsgdream2022). We trained a CNN-BiLSTM neural network on expression levels measured in yeast across millions of random promoter sequences to predict expression levels for a held-out test set.
 
 Final model and weights are saved in the `model` folder and can be readily used to make predictions given a one-hot encoded input sequence of 110 length.
